@@ -74,7 +74,7 @@ function Login() {
         />
       </form>
 
-      <button onClick={() => setIsRegistrando(!isRegistrando)}>
+      <button class="secondary" onClick={() => setIsRegistrando(!isRegistrando)}>
         {isRegistrando ? "Ya tengo una cuenta" : "Quiero registrarme"}
       </button>
     </div>
