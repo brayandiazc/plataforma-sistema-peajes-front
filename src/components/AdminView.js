@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function AdminView() {
-  return (
-    <div>
-      Hola administrador
-    </div>
-  )
+  return <div>Hola, admin</div>;
 }
 
-export default AdminView
+export default AdminView;
